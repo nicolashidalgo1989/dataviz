@@ -1,57 +1,71 @@
-$(document).ready(function(){  
-	$('body').scrollspy({target: ".menu-principal", offset: 50}); 
-	$("#menu-principal a").on('click', function(event) { 
-		if (this.hash !== "") { 
-			event.preventDefault();  
-			var hash = this.hash; 
-			$('html, body').animate({
-				scrollTop: $(hash).offset().top
-				}, 800, function(){ 
-				window.location.hash = hash;
-			});
-		}
-	});
-	$(".navbar-toggle").on('click', function(event) {
-		var icono = $(this).find("span").hasClass('fa fa-bars');
-		if(icono){
-			$(this).find("span").attr("class","fa fa-close");
-		}else{
-			$(this).find("span").attr("class","fa fa-bars");
-		}
-	});
+$(document).on('click', 'a[href^="#"]', function (e) {
+    e.preventDefault(); 
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
 });
 let background = document.querySelectorAll('.background');  
 for(i=0;i<background.length;i++){
-	background[i].parentNode.style.background = "rgba(0,0,0,.8)";
+	background[i].parentNode.style.background = "rgba(0,0,0,.7)";
 	background[i].parentNode.style.color = "#fff";
-} 
-var swiper = new Swiper('.swiper-container', {
-	slidesPerView: 3,
-	spaceBetween: 30, 
-	loop: true,
-	loopFillGroupWithBlank: true,  
-	autoplay: {
-    	delay: 5000,
-  	},
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
-	},
-	breakpoints: {
-    // when window width is <= 320px
-    320: {
-      slidesPerView: 1,
-      spaceBetween: 10
-    },
-    // when window width is <= 480px
-    480: {
-      slidesPerView: 2,
-      spaceBetween: 20
-    },
-    // when window width is <= 640px
-    640: {
-      slidesPerView: 3,
-      spaceBetween: 30
-    }
-  }
+};
+$('.slider').slick({
+    infinite: true,
+    slidesToShow: 3, 
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    prevArrow: $('.prev'),
+    nextArrow: $('.next'),
+    variableWidth: true,
+    centerMode: true,
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3, 
+            }
+        },
+        {
+            breakpoint: 600,
+                settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        } 
+    ]
+});
+function validateForm() {
+    const Nombre = document.getElementById('name').value;
+    const Email = document.getElementById('mail').value;
+    const Mensaje = document.getElementById('msg').value;
+    if ( Nombre === null || Nombre.length == 0 || /^\s+$/.test(Nombre)) {
+        alert(`Ingrese su nombre`);
+        return false;
+    } 
+    if ( !(/\S+@\S+\.\S+/.test(Email)) ) {
+        alert(`Ingrese su email`);
+        return false;
+    } 
+    if ( Mensaje === null ) {
+        alert(`Ingrese un mensaje`);
+        return false;
+    } 
+}
+$(window).scroll( function(){
+    $('.scroll-up').each( function(i){
+        var bottom_of_object = $(this).position().top + $(this).outerHeight();
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+        if( bottom_of_window > bottom_of_object ){
+            $(this).animate({'opacity':'1'},500);
+        } 
+    }); 
 });

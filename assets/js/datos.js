@@ -28,119 +28,79 @@
     ],
     "servicios": [
         {
-            "icon": "bar-chart",
+            "icon": "fas fa-chart-bar",
             "title": "Big Data &amp; Enterprise Analytics",
             "txt": "Soluciones analíticas basadas en Ciencia de datos, tecnologías BI/BigData y Analytics, para E-Commerce, Marketing Digital, Análisis Fintech y Bancario, Análisis Predictivo."
         },
         {
-            "icon": "bar-chart",
-            "title": "Big Data &amp; Enterprise Analytics",
-            "txt": "Soluciones analíticas basadas en Ciencia de datos, tecnologías BI/BigData y Analytics, para E-Commerce, Marketing Digital, Análisis Fintech y Bancario, Análisis Predictivo."
+            "icon": "fas fa-chart-line",
+            "title": "Data Science/Machine Learning",
+            "txt": "Soluciones de aprendizaje automático y data science para construir y desplegar modelos predictivos precisos en una fracción del tiempo, a través de tecnologías tales como TensorFlow, R, Python, Spark, SAS."
         }, 
         {
-            "icon": "bar-chart",
-            "title": "Big Data &amp; Enterprise Analytics",
-            "txt": "Soluciones analíticas basadas en Ciencia de datos, tecnologías BI/BigData y Analytics, para E-Commerce, Marketing Digital, Análisis Fintech y Bancario, Análisis Predictivo."
+            "icon": "fas fa-user",
+            "title": "Transformación Digital",
+            "txt": "Implementación de soluciones con verticales para ECommerce, Campañas y Marketing."
         },
         {
-            "icon": "bar-chart",
-            "title": "Big Data &amp; Enterprise Analytics",
-            "txt": "Soluciones analíticas basadas en Ciencia de datos, tecnologías BI/BigData y Analytics, para E-Commerce, Marketing Digital, Análisis Fintech y Bancario, Análisis Predictivo."
+            "icon": "fas fa-cloud",
+            "title": "Soluciones Cloud",
+            "txt": "Consultoria e implementación de soluciones Financieras y de RRHH, Oracle o SAP"
         }, 
         {
-            "icon": "bar-chart",
-            "title": "Big Data &amp; Enterprise Analytics",
-            "txt": "Soluciones analíticas basadas en Ciencia de datos, tecnologías BI/BigData y Analytics, para E-Commerce, Marketing Digital, Análisis Fintech y Bancario, Análisis Predictivo."
+            "icon": "fas fa-cogs",
+            "title": "SOA & Integración de Datos",
+            "txt": "Proveemos de consultoría especializada para integración y gobierno de datos."
         },
         {
-            "icon": "bar-chart",
-            "title": "Big Data &amp; Enterprise Analytics",
-            "txt": "Soluciones analíticas basadas en Ciencia de datos, tecnologías BI/BigData y Analytics, para E-Commerce, Marketing Digital, Análisis Fintech y Bancario, Análisis Predictivo."
+            "icon": "fas fa-mobile-alt",
+            "title": "Aplicaciones Responsivas",
+            "txt": "Desarrollo de aplicaciones Web/Mobile responsivas basadas en AngularJS, Java."
         }
     ],
     "soluciones": [
         {
-            "icon": "bar-chart",
-            "title": "Big Data &amp; Enterprise Analytics",
+            "icon": "fas fa-chart-bar",
+            "title": "Big Data & Enterprise Analytics",
             "txt": "Soluciones analíticas basadas en Ciencia de datos, tecnologías BI/BigData y Analytics, para E-Commerce, Marketing Digital, Análisis Fintech y Bancario, Análisis Predictivo."
         },
         {
-            "icon": "bar-chart",
-            "title": "Big Data &amp; Enterprise Analytics",
-            "txt": "Soluciones analíticas basadas en Ciencia de datos, tecnologías BI/BigData y Analytics, para E-Commerce, Marketing Digital, Análisis Fintech y Bancario, Análisis Predictivo."
-        }, 
-        {
-            "icon": "bar-chart",
-            "title": "Big Data &amp; Enterprise Analytics",
-            "txt": "Soluciones analíticas basadas en Ciencia de datos, tecnologías BI/BigData y Analytics, para E-Commerce, Marketing Digital, Análisis Fintech y Bancario, Análisis Predictivo."
+            "icon": "fas fa-chart-line",
+            "title": "Inteligencia de Clientes",
+            "txt": "Soluciones analíticas preduictivas para el cicoo de vida del Cliente. Desde la prospección de nuevos clientes corporativos, Campañas, Fidelización, Marketing y Fuerza de Ventas hasta la gestión más ágil modelos de riesgo."
         },
         {
-            "icon": "bar-chart",
-            "title": "Big Data &amp; Enterprise Analytics",
-            "txt": "Soluciones analíticas basadas en Ciencia de datos, tecnologías BI/BigData y Analytics, para E-Commerce, Marketing Digital, Análisis Fintech y Bancario, Análisis Predictivo."
-        }, 
-        {
-            "icon": "bar-chart",
-            "title": "Big Data &amp; Enterprise Analytics",
-            "txt": "Soluciones analíticas basadas en Ciencia de datos, tecnologías BI/BigData y Analytics, para E-Commerce, Marketing Digital, Análisis Fintech y Bancario, Análisis Predictivo."
+            "icon": "fas fa-user",
+            "title": "Modelos Predictivos de Riesgo",
+            "txt": "Soluciones para el riesgo créditicio diseñadas para automatizar sus procesos analíticos de ratings, kpis, gestión límites de crédito y cobranza."
         },
         {
-            "icon": "bar-chart",
-            "title": "Big Data &amp; Enterprise Analytics",
-            "txt": "Soluciones analíticas basadas en Ciencia de datos, tecnologías BI/BigData y Analytics, para E-Commerce, Marketing Digital, Análisis Fintech y Bancario, Análisis Predictivo."
-        }
-    ],
-    "tecnologia": [
-        {
-            "logo": "assets/img/clientes/port1.jpg",
-            "alt": ""
+            "icon": "fas fa-cloud",
+            "title": "E-Commerce Analytics",
+            "txt": "Somos expertos en consultoria e implementación de soluciones de gestión y planificación financiera basadas en Hyperion o SAP."
         },
         {
-            "logo": "assets/img/clientes/port2.jpg",
-            "alt": ""
+            "icon": "fas fa-cogs",
+            "title": "Control de Gestión Financiero",
+            "txt": "Proveemos de consultoría especializada para integración y gobierno de datos."
         },
         {
-            "logo": "assets/img/clientes/port3.jpg",
-            "alt": ""
-        },
-        {
-            "logo": "assets/img/clientes/port4.jpg",
-            "alt": ""
-        },
-        {
-            "logo": "assets/img/clientes/port5.jpg",
-            "alt": ""
-        },
-        {
-            "logo": "assets/img/clientes/port6.jpg",
-            "alt": ""
-        },
-        {
-            "logo": "assets/img/clientes/port7.jpg",
-            "alt": ""
-        }
-    ],
-    "clientes": [
-        {
-            "logo": "assets/img/clientes/port10.jpg",
-            "alt": ""
-        },
-        {
-            "logo": "assets/img/clientes/port12.jpg",
-            "alt": ""
-        }, 
-        {
-            "logo": "assets/img/clientes/port14.jpg",
-            "alt": ""
-        },
-        {
-            "logo": "assets/img/clientes/port15.jpg",
-            "alt": ""
-        }
+            "icon": "fas fa-mobile-alt",
+            "title": "Dataviz 360 PYMES",
+            "txt": "Solución que permite a las PYMES tener una visibilidad total de sus datos empresariales, a partir de Dashboards Comercial, Marketing/Web, RRHH y Finanzas."
+        }       
     ],
     "rrss": [
         {
-            "logo": "fa-facebook-f",
+            "logo": "fab fa-facebook-f",
+            "link": "javascript:void(0);"
+        },
+        {
+            "logo": "fab fa-twitter",
+            "link": "javascript:void(0);" 
+        },
+        {
+            "logo": "fab fa-google-plus-g",
             "link": "javascript:void(0);"
         }
     ]
