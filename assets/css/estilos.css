@@ -1,0 +1,232 @@
+:root {
+    --orange: #f39c12;
+    --blue: #3498db;
+    --white: #ffffff;
+    --black: #000000;
+    --opacity: rgba(0, 0, 0, .8);
+}
+*{
+    font-family: 'Lato', sans-serif!important;
+} 
+.bg-blue{
+	background: var(--blue);
+	color: var(--white);
+}
+.bg-orange{
+	background: var(--orange);
+	color: var(--black);
+}
+.header {
+    background: var(--opacity);
+}
+.header .container {
+    border-bottom: 1px solid var(--white);
+}
+.navbar-brand {
+    padding: 0;
+    font-size: 0;
+    background: url(../img/logo/dataviz-logo.jpg) 0 0 no-repeat;
+    background-size: 100%;
+    width: 150px;
+    max-height: 35px;
+    margin: 19px 0;
+}
+.navbar-toggle {
+    color: white;
+    font-size: 24px;
+    padding: 0;
+}
+h1 {
+    margin: 0 0 0 15px;
+    font-size: 14px;
+} 
+.menu-principal {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: 'Barlow', sans-serif;
+}
+.menu-principal li a {
+    color: var(--white);
+    padding: 29px 15px;
+}
+.menu-principal li:hover a,
+.menu-principal li:focus a,
+.menu-principal li:active,
+.menu-principal li.active a {
+    background: none;
+    color: var(--orange);
+}
+section {
+    min-height:80vh;
+    padding:40px 0;
+    position: relative;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+} 
+#home{
+    height:100vh;
+}
+section.mid{
+    max-height:450px;
+}
+.background {
+    position: absolute;
+    z-index: -1;
+    object-fit:cover;
+    object-position:center;    
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+.angle{
+    padding:40px 0 80px;
+}
+.angle:before,
+.angle:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom-width: 20vh;
+    border-bottom-style: solid;
+    border-bottom-color: var(--white); 
+} 
+.angle:before {
+    left: 0; 
+    border-right: 50vw solid transparent;
+}
+.angle:after { 
+    right: 0; 
+    border-left: 50vw solid transparent;
+}
+.main-title {
+    text-transform: none;
+    font-weight:200;
+    font-size:22px;
+}
+.main-title:after {
+    display: none;
+}
+.lead { 
+    font-size: 26px;
+    margin: 50px 0; 
+    font-weight:200;
+}
+.lead strong{ 
+    font-weight:600;
+}
+.btn-lg{
+    width: 240px;
+    height: 55px;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+}
+.title {
+    text-transform: uppercase;
+}
+.title strong {
+    font-weight: 600;
+}
+.title.orange strong {
+	color: var(--orange);
+}
+.title.blue strong {
+	color: var(--blue);
+}
+.title:after {
+    content: "";
+    width: 5%;
+    height: 2px;
+    background: var(--white);
+    margin: 20px 0;
+    display: block;
+}
+.title.orange:after{
+    background: var(--orange);
+}
+.title.blue:after{
+    background: var(--blue);
+}
+.text-center .title:after {
+    margin: 20px auto;
+}
+.icon {
+	border:3px solid var(--white);
+	border-radius:100px; 
+	text-align:center;
+	width:50px;
+	height:50px;
+    margin: 0 auto;
+    display: block;
+}
+.icon i{
+	line-height:42px;
+	font-size:24px;
+	color: var(--white);
+}
+.icon.blue{
+	border:3px solid var(--blue);
+}
+.icon.blue i{
+	color: var(--blue);
+}
+figure{
+    margin:40px 0;
+}
+figcaption h3{
+	font-size:16px;
+	font-weight:400;
+    color:#4a4a4a;
+	margin: 0 0 20px 0;
+}
+.title-third{
+	margin:50px 0; 
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center; 
+    background:none;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+} 
+.footer{
+	background:var(--black);
+	padding:20px 0;
+}
+.scroll-up{
+	position:fixed;
+	z-index:9;
+	bottom:4%;
+	right:2%;
+}
